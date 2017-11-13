@@ -22,11 +22,21 @@ void shift(char *arr,int pos){
 		arr[i]=arr[i+1];
 	}
 }
-void strip_vowel(char *arr){
+void strip_consonants(char *arr){
 	int i,flag;
 	for(i=0;arr[i]!='\0';i++){
 		flag=0;
 		switch(arr[i]){
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+			case 7:
+			case 8:
+			case 9:
+			case 0:
 			case 'a':
 			case 'A':
 			case 'e':
@@ -47,7 +57,7 @@ void strip_vowel(char *arr){
 int main(){
 	char arr[25];
 	read(arr);
-	strip_vowel(arr);
+	strip_consonants(arr);
 	printf("The Array contents after striping are:\n");
 	print(arr);
 	return 0;
