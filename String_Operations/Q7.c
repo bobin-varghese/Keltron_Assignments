@@ -44,7 +44,7 @@ int main(){
 	char arr[25];
 	read(arr);
 	strip_vowel(arr);
-	printf("The Array contents after striping are:\n");
+	printf("The Array contents after striping vowels are:\n");
 	print(arr);
 	return 0;
 }
