@@ -5,7 +5,7 @@ int len(char *arr){
 	return i;
 }
 void read(char *arr){
-	printf("Enter the String:\n");
+	printf("Enter something to insert into the Array:\n");
 	fgets(arr,25,stdin);	//scanf("%s",arr);
 	arr[len(arr)-1]='\0';
 	
