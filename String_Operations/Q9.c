@@ -70,6 +70,16 @@ void strip_consonants(char *arr){
 	for(i=0;arr[i]!='\0';i++){
 		flag=0;
 		switch(arr[i]){
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+			case 7:
+			case 8:
+			case 9:
+			case 0:
 			case 'a':
 			case 'A':
 			case 'e':
