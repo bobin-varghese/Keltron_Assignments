@@ -58,7 +58,7 @@ int main(){
 	char arr[25];
 	read(arr);
 	strip_consonants(arr);
-	printf("The Array contents after striping are:\n");
+	printf("The Array contents after striping consonants are:\n");
 	print(arr);
 	return 0;
 }
